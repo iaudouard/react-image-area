@@ -19,7 +19,7 @@ import Debugger from './Debugger';
 import { IAreaSelectorProps, IAreaStatus, IEventData } from './types';
 import { isSubElement } from './utils';
 
-const DOC_MOVE_OPTS = { capture: true, passive: false };
+const DOC_MOVE_OPTS = { capture: false, passive: false };
 
 const xOrds = ['e', 'w'];
 const yOrds = ['n', 's'];
